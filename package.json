@@ -4,7 +4,8 @@
     "description": "Aplicativo de encurtador de URLs",
     "main": "server.js",
     "scripts": {
-        "start": "node server.js"
+        "start": "node server.js",
+        "build": "echo 'Build step skipped. No frontend assets.'"
     },
     "dependencies": {
         "cors": "^2.8.5",
